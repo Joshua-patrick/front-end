@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,600;1,300&family=Heebo:wght@100;200;300;400&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing : border-box;
+}
+body{
+     height: 100%;
+     width:100%;
+     background: #fafafa;
+     
+}
+.text{
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 21em;
+    left: 50%;
+    height:200px;
+    margin-top: 50px ;
+
+    transform: translateX(-50%);
+}
+.first{
+    font-family: 'Heebo', sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+}
+.second{
+    width: 30em;
+    line-height: 30px;
+    padding-top:8px; 
+}
+section{
+    position: relative;
+    height: 560px;
+    max-width: 1200px;
+    max-height: 560px;
+    position: relative;
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+    padding-bottom: 40px;
+    
+}
+.horizontal{
+    max-width: 1600px;
+    width: 1200px;
+    height: 100%;
+    background: #fafafa;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.card1{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    background: #fff;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-top: 4px solid #994849;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+}
+.card2{
+    height: 250px;
+    position: relative;
+    width: 350px;
+    background: #fff;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+    border-radius: 10px;
+    border-top: 4px solid yellow;
+}
+.vertical{
+    display: flex;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50);
+    justify-content: space-between;
+    width: 1100px;
+
+}
+.card3{
+    height: 250px;
+    width: 350px;
+    background: #fff;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+    border-radius: 10px;
+    border-top: 4px solid #66b8b7;
+
+}
+.card4{
+    height: 250px;
+    width: 350px;
+    background: #fff;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+    border-radius: 10px;
+    border-top: 4px solid #5a8cb9;
+
+}
+h3{
+    font-family: sans-serif;
+    color: #4C4E61;
+    font-size: 29px;
+    padding: 20px;
+}
+p.card{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #A3A5AE;
+    padding: 0px 20px;
+
+}
+img{
+    float: right;
+    padding: 40px 40px ;
+}
+
